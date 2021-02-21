@@ -33876,6 +33876,7 @@ GameObject:
   - component: {fileID: 1787614131}
   - component: {fileID: 1787614130}
   - component: {fileID: 1787614129}
+  - component: {fileID: 1787614133}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -33964,6 +33965,22 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1787614133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787614128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e47ef7cc6c2ffd46a586fa18d7d71fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentTime: 0
+  startingTime: 3
+  intTime: 0
+  countDownText: {fileID: 1802752991}
 --- !u!1 &1802752989
 GameObject:
   m_ObjectHideFlags: 0
@@ -33998,8 +34015,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 80, y: -52.339996}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 39.6, y: -36.7}
+  m_SizeDelta: {x: 286.03876, y: 32.58539}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1802752991
 MonoBehaviour:
@@ -34021,7 +34038,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 25
     m_FontStyle: 3
     m_BestFit: 0
